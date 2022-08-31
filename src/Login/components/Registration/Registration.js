@@ -16,8 +16,8 @@ function Registration(){
                 <h1>Welcome</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
                 <div className='reg-texts-btns'>
-                <button><Link to='/register' >Create Account</Link></button>
-                <button><Link to='/form'>Login</Link></button>
+                <button><Link to='/Ecommerce-App/register' >Create Account</Link></button>
+                <button><Link to='/Ecommerce-App/form'>Login</Link></button>
                 </div>
             </div>
         </div>

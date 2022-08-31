@@ -12,7 +12,7 @@ function Form(){
             <input type='password' placeholder='enter your password' className='formoflogin'/>
             <button>Login</button>
             </div>
-            <p>Don’t have an account?<Link to='/register'> Register</Link></p>
+            <p>Don’t have an account?<Link to='/Ecommerce-App/register'> Register</Link></p>
             
             </div>
         </div>
