@@ -1,0 +1,24 @@
+.card{
+    padding:20px;
+    border:2px solid red;
+    margin:10px;
+    padding-bottom: 0px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+    border-style: hidden;
+}
+.card-dis1{
+    width: 500px;
+    text-align: left;
+    font-weight: bold;
+    color: #AFADB5;
+}
+.card-name{
+    text-align: left;
+}
+.card-dis{
+    width: 500px;
+    text-align: left;
+    color: #424242;
+}

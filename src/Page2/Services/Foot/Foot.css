@@ -1,0 +1,43 @@
+.Foot-btn{
+    
+    color: white;
+    display: inline-block;
+    background-color:  #518581;
+    border:none;
+    margin-left: 40%;
+    font-size: large;
+    font-weight: bold;
+    padding-left: 3%;
+    padding-right: 3%;
+    cursor: pointer;
+}
+.foot-h1-btn{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.foot-line{
+    margin-left:3%;
+    margin-right: 5%;
+}
+.foot-head{
+    font-weight: bolder;
+    font-size: larger;
+
+}
+.foot-services{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30%;
+}
+.foot-serv-item{
+    padding: 10px;
+    padding-left: 20px;
+}
+.esa-btn{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}

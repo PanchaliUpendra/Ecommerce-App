@@ -1,0 +1,130 @@
+.about-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.about-head-h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.about-head-p{
+    font-weight: bold;
+    color: #AFADB5;
+    width: 50%;
+    text-align: center;
+}
+.about-video{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    z-index:1;
+    
+}
+.about-video-main{
+    width: 90%;
+    height:500px;
+}
+.about-our-mission{
+    font-weight: bold;
+    color: orange;
+    font-size: 20px;
+}
+
+.about-mission-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-mission-list-each{
+    padding:10px;
+    margin: 1%;
+    text-align: center;
+}
+
+.about-mission-extra{
+    padding-left: 2%;
+}
+.about-list-p{
+    color: #AFADB5;
+}
+.about-24hours{
+    width: 60px;
+    height:60px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.about-24h-container{
+    display: flex;
+    flex-direction: row;
+}
+.about-24h-l{
+    margin-left: 3%;
+}
+.about-page3-mission{
+    display: flex;
+    
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:5%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.our-team-head{
+    font-weight: bold;
+    color: orange;
+    font-size: 20px;
+}
+.our-team-para{
+    color: #AFADB5;
+}
+.our-team-para-size{
+    width: 35%;
+    margin-left: 20%;
+}
+.about-our-team{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.about-our-team-imgs{
+    width: 400px;
+    height:400px;
+}
+.our-team-names{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.about-our-team-members{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.our-each-teammem{
+    margin:3%;
+}
+.about-foot-head{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+.about-foot-btn{
+    margin-left: 50%;
+    margin-top: 1.5%;
+}
+.about-our-team-btn{
+    border-style: none;
+    padding:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+}

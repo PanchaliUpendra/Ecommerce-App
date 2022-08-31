@@ -1,0 +1,75 @@
+
+.header-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+}
+.head-btns{
+    font-size: 46px;
+    width:45%;
+}
+.paras{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.para-btn{
+    font-family: 'Eudoxus Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #AFADB5;
+    width:40%;
+}
+.input-search{
+    padding:7px;
+    border: none;
+    font-size: large;
+}
+.search-btn{
+    padding:7px;
+    border: none;
+    background-color:#518581;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: large;
+    cursor: pointer;
+}
+.search-bar{
+    padding: 50px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 4px 80px 0px #AFADB533;
+    background-color: white;
+    
+
+}
+.search{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    
+}
+.body-end{
+    
+
+background-image:url('./furniture.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height:70vh;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 10%;
+}
+@media(max-width:800px){
+    .head-btns{
+        font-size: 46px;
+        width:100%;
+    }
+
+}

@@ -1,0 +1,41 @@
+.loginformscontainer{
+    display: flex;
+    justify-content: center;
+    margin:5%;
+    align-items: center;
+}
+.loginmailandpass{
+    display: flex;
+    flex-direction: column;
+    
+}
+.formoflogin{
+    width:100%;
+    padding:20px;
+    padding-right: 14px;
+    padding-bottom: 10px;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    border-color: black;
+    background-color: transparent;
+    color: black;
+}
+.loginformscontainer button{
+    width: 120%;
+    padding:25px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+    padding-top: 15px;
+    background-color: black;
+    color:#FFECAA;
+    font-weight: bold;
+
+}
+.forminlinebox{
+    display: inline-block;
+    background-color: #FFECAA;
+    padding:40px;
+    padding-right: 70px;
+    border-radius: 12px;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,325 @@
+.nav-btn{
+    border:2px solid #F3F3F3;
+    border-style:hidden hidden solid hidden;
+    margin:1px;
+    position: sticky;
+    top: 0;
+    scroll-behavior: smooth;
+    background-color: white;
+    z-index: 2;
+    
+}
+.Link{
+    text-decoration: none;
+    text-decoration-style: none;
+    color: black;
+    transition: 1.2s;
+}
+.Link:hover{
+    color: green;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.logo-btn{
+    display: flex;
+    padding-left: 70px;
+}
+.img-btn{
+    width: 30px;
+    height:30px;
+    padding-top: 35px;
+}
+.logo{
+    font-size: large;
+    font-weight: bold;
+    border:2px solid rgb(187, 186, 186);
+    border-style: hidden;
+    display: inline-block;
+    padding:10px;
+    font-size:24px;
+    
+}
+.ul-btn{
+    padding-left: 270px;
+    padding-right:270px;
+    padding-top: 20px;
+}
+.ul-btn li{
+    display: inline;
+    border: 2px solid black;
+    border-style: hidden;
+    margin-left:30px;
+    padding: 10px;
+    font-size: 20px;
+}
+.Avatar{
+    padding-left: 220px;
+    padding-top: 30px;
+}
+
+@media(max-width:1410px){
+    .nav-btn{
+        border:2px solid #F3F3F3;
+        border-style:hidden hidden solid hidden;
+        
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-btn{
+        padding-left: 50px;
+    }
+    .img-btn{
+        width: 30px;
+        height:30px;
+        padding-top: 25px;
+    }
+    .logo{
+        font-size: large;
+        font-weight: bold;
+        border:2px solid black;
+        border-style: hidden;
+        display: inline-block;
+        padding:10px;
+    }
+    .ul-btn{
+        padding-left: 70px;
+        padding-right:75px;
+        padding-top: 12px;
+    }
+    .ul-btn li{
+        display: inline;
+        border: 2px solid black;
+        border-style: hidden;
+        margin-left:30px;
+        padding: 10px;
+    }
+    .Avatar{
+        padding-left: 40px;
+        padding-top: 20px;
+    }
+
+}
+
+@media(max-width:948px){
+    .nav-btn{
+        border:2px solid #F3F3F3;
+        border-style:hidden hidden solid hidden;
+        
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-btn{
+        padding-left: 50px;
+    }
+    .logo{
+        font-size: large;
+        font-weight: bold;
+        border:2px solid black;
+        border-style: hidden;
+        display: inline-block;
+        padding:10px;
+    }
+    .ul-btn{
+        padding-left: 60px;
+        padding-right:65px;
+        padding-top: 12px;
+    }
+    .ul-btn li{
+        display: inline;
+        border: 2px solid black;
+        border-style: hidden;
+        margin-left:30px;
+        padding: 10px;
+    }
+    .Avatar{
+        padding-left: 7px;
+        padding-top: 20px;
+    }
+
+}
+@media(max-width:787px){
+    .nav-btn{
+        border:2px solid #F3F3F3;
+        border-style:hidden hidden solid hidden;
+        
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-btn{
+        padding-left: 25px;
+    }
+    .logo{
+        font-size: large;
+        font-weight: bold;
+        border:2px solid black;
+        border-style: hidden;
+        display: inline-block;
+        padding:10px;
+    }
+    .ul-btn{
+        padding-left: 40px;
+        padding-right:25px;
+        padding-top: 11px;
+    }
+    .ul-btn li{
+        display: inline;
+        border: 2px solid black;
+        border-style: hidden;
+        margin-left:10px;
+        padding: 10px;
+    }
+    .Avatar{
+        padding-left: 7px;
+        padding-top: 20px;
+    }
+
+}
+
+@media(max-width:623px){
+    .nav-btn{
+        border:2px solid #F3F3F3;
+        border-style:hidden hidden solid hidden;
+        
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-btn{
+        padding-left: 5px;
+        padding-top: 4px;
+    }
+    .logo{
+        font-size: large;
+        font-weight: bold;
+        border:2px solid black;
+        border-style: hidden;
+        display: inline-block;
+        padding:5px;
+    }
+    .img-btn{
+        width: 30px;
+        height:30px;
+        padding-top: 20px;
+    }
+    .ul-btn{
+        padding-left: 20px;
+        padding-right:25px;
+        padding-top: 7.5px;
+    }
+    .ul-btn li{
+        display: inline;
+        border: 2px solid black;
+        border-style: hidden;
+        margin-left:10px;
+        padding:5px;
+    }
+    .Avatar{
+        padding-left: 7px;
+        padding-top: 15px;
+    }
+
+}
+
+@media(max-width:530px){
+    .nav-btn{
+        border:2px solid #F3F3F3;
+        border-style:hidden hidden solid hidden;
+        
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-btn{
+        padding-left: 5px;
+        padding-top: 6px;
+    }
+    .img-btn{
+        width: 30px;
+        height:30px;
+        padding-top: 10px;
+    }
+    .logo{
+        font-size: large;
+        font-weight: bold;
+        border:2px solid black;
+        border-style: hidden;
+        display: inline-block;
+        font-size: 12px;
+    }
+    .ul-btn{
+        padding-left: 1px;
+        padding-right:5px;
+        padding-top: 5px;
+    }
+    .ul-btn li{
+        display: inline;
+        border: 2px solid black;
+        border-style: hidden;
+        font-size: 15px;
+        
+    }
+    .Avatar{
+        padding-left: 30px;
+        padding-top: 10px;
+
+    }
+
+}
+
+@media(max-width:434px){
+    .nav-btn{
+        border:2px solid #F3F3F3;
+        border-style:hidden hidden solid hidden;
+        
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-btn{
+        padding-left: 5px;
+        padding-top: 10px;
+    }
+    .img-btn{
+        width: 30px;
+        height:30px;
+        padding-top: 5px;
+    }
+    .logo{
+        font-size: large;
+        font-weight: bold;
+        border:2px solid black;
+        border-style: hidden;
+        display: inline-block;
+        font-size: 10px;
+    }
+    .ul-btn{
+        padding-left: 1px;
+        padding-right:5px;
+        padding-top: 3px;
+    }
+    .ul-btn li{
+        display: inline;
+        border: 2px solid black;
+        border-style: hidden;
+        font-size: 10px;
+        
+    }
+    .Avatar{
+        padding-left: 30px;
+        padding-top: 10px;
+
+    }
+
+}

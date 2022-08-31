@@ -1,0 +1,21 @@
+.Items-container{
+    margin-top: 5%;
+    background-color:rgb(243, 243, 243);
+}
+.Items-set{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.items-btn{
+    width:25%;
+    border:2px solid red;
+    padding:30px;
+    margin:10px;
+    border-radius: 8px;
+    background-color: white;
+    border-style: hidden;
+}

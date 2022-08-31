@@ -1,0 +1,88 @@
+.Our-customer{
+    margin-top: 8%;
+}
+
+.our-customer-head{
+    font-weight: bold;
+    color:orange;
+}
+.our-customer-para1{
+    font-family: 'Eudoxus Sans';
+    font-style: normal;
+    font-weight: 500;
+    color: #AFADB5;
+    
+
+}
+.our-customer-para{
+    font-family: 'Eudoxus Sans';
+    font-style: normal;
+    font-weight: 500;
+    color: #AFADB5;
+}
+.our-customer-block1{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.our-customer-img1{
+    width:50px;
+    height:50px;
+}
+.our-customer-para{
+    font-family: 'Eudoxus Sans';
+    font-style: normal;
+    font-weight: 500;
+    color: #AFADB5;
+    width: 400px;
+}
+.our-customer-img2{
+    width:50px;
+    height:50px;
+    margin-top: 0.5%;
+    margin-right: 1%;
+}
+.img2-name{
+    display: flex;
+    flex-direction: row;
+}
+.img2-name h3{
+    width:50%;
+}
+.our-customer-img3{
+    width:30px;
+    height:30px;
+    margin-left: 8%;
+    padding-top: 13px;
+    padding-right: 4px;
+}
+.img3-para{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150%;
+    
+}
+.img2-img3-para{
+    display: flex;
+    flex-direction: row;
+    
+}
+.our-customer-size{
+    padding:20px;
+  
+    margin:15px;
+    border-radius: 8px;
+    background-color: white;
+}
+.our-customer-users{
+    display: flex;
+    flex-direction: row;
+    
+}
+.our-customer-etc{
+    background-color:rgb(243, 243, 243);
+    overflow-x: scroll;
+    margin:10px;
+    border:2px solid rgb(175, 174, 174);
+    border-style: hidden solid hidden solid;
+}

@@ -1,0 +1,21 @@
+.weekend-trend-head-orange{
+    font-weight: bold;
+    color: orange;
+}
+.weekend-allsets-cont{
+    margin-left:5%;
+}
+.weekend-foot-button{
+    padding:15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-style: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.weekend-dis-foot{
+    text-align: right;
+    margin-right: 5%;
+}

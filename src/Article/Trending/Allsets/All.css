@@ -1,0 +1,26 @@
+.All-load-more-items{
+    display: none;
+}
+.All-load-more-each{
+    display: flex;
+    flex-direction: column;
+}
+.All-btn-loadmore{
+    padding:15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.div-btn-load{
+    display: none;
+    text-align: center;
+    margin-top: 5%;
+
+}
+.div-btn-load1{
+    text-align: center;
+    margin-top: 5%;
+}

@@ -1,0 +1,39 @@
+
+.login-form-div1{
+    display: flex;
+
+    justify-content: center;
+    margin-top: 5%;
+}
+.loginformsdivs{
+    display: inline-block;
+    background-color: #FFECAA;
+    padding:60px;
+    border-radius: 15px;
+}
+.logindivsforms{
+    display: flex;
+    flex-direction: column;
+}
+.loginformemail{
+    width: 100%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin:2%;
+    margin-left: 0;
+    border-radius: 8px;
+    background-color: transparent;
+    color: black;
+}
+.formsregbut{
+    width: 108%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color:black ;
+    color: #FFECAA;
+    margin-top: 5%;
+    
+
+}

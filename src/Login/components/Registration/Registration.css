@@ -1,0 +1,38 @@
+.Register-reg1{
+    width: 100%;
+    height:500px;
+}
+.Registration-form1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: #050522;
+
+    margin:5%;
+}
+.reg-texts{
+    text-align: center;
+    color: white;
+}
+.reg-texts-btns{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.reg-texts-btns button{
+    padding:20px;
+    margin:10px;
+    background-color: #FFDE69;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top:0;
+    cursor: pointer;
+}
+.registeration-oops{
+    margin-top: 5%;
+}
+.reg-texts h1{
+    color: red;
+}
+

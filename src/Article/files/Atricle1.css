@@ -1,0 +1,120 @@
+.Article-header{
+    text-align: center;
+}
+.Article-head{
+    font-size: 30px;
+}
+.Atricle-para{
+    font-weight: bold;
+    color: #AFADB5;
+}
+.article-scroll-btn{
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    margin-top: 2.5%;
+    margin-right: 2%;
+
+}
+.overload-container{
+    border: 2px solid black;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    border-style: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+         box-shadow: 0 8px 6px -6px black;
+}
+.Atricle-cont-btn{
+
+    display: flex;
+    flex-direction: row;
+}
+.Atricle-para1{
+    margin-left: 2%;
+    margin-top: 2%;
+    color: #AFADB5;
+    padding-top: 5px;
+
+}
+.Article-img-background{
+    display: flex;
+    justify-content: center;
+}
+
+.article-flex-img{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.Article-flex-cont{
+    position:relative;
+    top:-70px;
+    text-align: center;
+}
+.bg1{
+    background-image: url('./background1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    height:500px;
+    align-items: center;
+    
+}
+.bg2{
+    background-image: url('./background2.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    height:500px;
+    align-items: center;
+    
+}
+.bg3{
+    background-image: url('./background3.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    height:500px;
+    align-items: center;
+    
+}
+.bg4{
+    background-image: url('./background4.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 90%;
+    height:500px;
+    align-items: center;
+    
+}
+.left-btn{
+    padding: 20px;
+    border-style: none;
+    background-color:transparent;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.Article-buttons{
+    background-color: rgb(130, 127, 127);
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+.right-btn{
+    padding:20px;
+    border-style: none;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px ;
+    cursor: pointer;
+}

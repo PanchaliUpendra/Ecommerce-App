@@ -1,0 +1,27 @@
+.benefits-head{
+    color:orange;
+}
+.benefit-card{
+    
+    width: 40%;
+}
+.benefit-para{
+    width:30%;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 20%;
+    color: #AFADB5;
+
+}
+.full-benefit{
+     
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.benefit{
+    
+    margin-top: 5%;
+   
+}
