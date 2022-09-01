@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Routes,Route} from 'react-router-dom'
+import {HashRouter, Routes,Route} from 'react-router-dom'
 import Navbar from './Components/Navbar/Navbar'
 import Page1 from './Components/App';
 import Page2 from './Page2/App';
@@ -24,7 +24,7 @@ function App(){
     
     
     return(
-        <BrowserRouter>
+        <HashRouter>
         <Navbar/>
         <Routes>
             <Route path='/' element={<Page1/>}/>
@@ -47,7 +47,7 @@ function App(){
             
 
         </Routes>
-        </BrowserRouter>
+        </HashRouter>
         
     );
 }
