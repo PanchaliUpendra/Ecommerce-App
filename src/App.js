@@ -1,5 +1,5 @@
 import React from 'react';
-import {HashRouter, Routes,Route} from 'react-router-dom'
+import {BrowserRouter, Routes,Route} from 'react-router-dom'
 import Navbar from './Components/Navbar/Navbar'
 import Page1 from './Components/App';
 import Page2 from './Page2/App';
@@ -24,10 +24,10 @@ function App(){
     
     
     return(
-        <HashRouter basename="/Ecommerce-App">
+        <BrowserRouter basename='/Ecommerce-App'>
         <Navbar/>
         <Routes>
-            <Route path='/' element={<Page1/>}/>
+            <Route exact path='/Ecommerce-App' element={<Page1/>}/>
             <Route path='/page2' element={<Page2/>}/>
             <Route path='/page3' element={<Page3/>}/>
             <Route path='/products' element={<Products handle={handle}/>}/>
@@ -47,7 +47,7 @@ function App(){
             
 
         </Routes>
-        </HashRouter>
+        </BrowserRouter>
         
     );
 }
