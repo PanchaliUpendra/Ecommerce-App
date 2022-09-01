@@ -10,17 +10,17 @@ function Navbar(){
             <div className='navbar'>
                 <div className='logo-btn'>
                     <img alt="shop" src={shop} className="img-btn"/>
-                <p className='logo'><Link to='/Ecommerce-App' className='Link'>LALAM</Link></p>
+                <p className='logo'><Link to='/' className='Link'>LALAM</Link></p>
                 </div>
                 <ul className='ul-btn'>
-                    <li  ><Link to='/Ecommerce-App/products' className='Link' >Product</Link></li>
+                    <li  ><Link to='/products' className='Link' >Product</Link></li>
 
-                    <li  ><Link to='/Ecommerce-App/page2' className='Link' >Services</Link></li>
-                    <li ><Link to='/Ecommerce-App/Article' className='Link'>Article</Link></li>
-                    <li  ><Link to='/Ecommerce-App/page3' className='Link'>AboutUs</Link></li>
+                    <li  ><Link to='/page2' className='Link' >Services</Link></li>
+                    <li ><Link to='/Article' className='Link'>Article</Link></li>
+                    <li  ><Link to='/page3' className='Link'>AboutUs</Link></li>
                 </ul>
                 <div className='Avatar' >
-                    <Link to='/Ecommerce-App/login'>
+                    <Link to='/login'>
                     <Avatar />
                     </Link>
                 </div>

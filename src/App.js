@@ -27,22 +27,22 @@ function App(){
         <BrowserRouter>
         <Navbar/>
         <Routes>
-            <Route path='/Ecommerce-App' element={<Page1/>}/>
-            <Route path='/Ecommerce-App/page2' element={<Page2/>}/>
-            <Route path='/Ecommerce-App/page3' element={<Page3/>}/>
-            <Route path='/Ecommerce-App/products' element={<Products handle={handle}/>}/>
-            <Route path='/Ecommerce-App/Article' element={<Article/>}>
+            <Route path='/' element={<Page1/>}/>
+            <Route path='/page2' element={<Page2/>}/>
+            <Route path='/page3' element={<Page3/>}/>
+            <Route path='/products' element={<Products handle={handle}/>}/>
+            <Route path='/Article' element={<Article/>}>
                 <Route index element={<All/>}/>
                 <Route path='Tips' element={<Tips/>}/>
                 <Route path='Design' element={<Design/>}/>
                 <Route path='Guide' element={<Guide/>}/>
                 <Route path='Interior' element={<Interior/>}/>   
             </Route>
-            <Route path='/Ecommerce-App/ExtraAtricle' element={<ExtraArticle/>}/>
-            <Route path='/Ecommerce-App/login' element={<Login/>}/>
-            <Route path='/Ecommerce-App/register' element={<Register/>}/>
-            <Route path='/Ecommerce-App/form' element={<Form/>}/>
-            <Route path='/Ecommerce-App/Product' element={<Productonly product1={product1}/>}/>
+            <Route path='/ExtraAtricle' element={<ExtraArticle/>}/>
+            <Route path='/login' element={<Login/>}/>
+            <Route path='/register' element={<Register/>}/>
+            <Route path='/form' element={<Form/>}/>
+            <Route path='/Product' element={<Productonly product1={product1}/>}/>
             
             
 

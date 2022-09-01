@@ -33,7 +33,7 @@ function Login(){
                     
                     
                 </form>
-                <p >Already have account? <Link to='/Ecommerce-App/form'>Login</Link></p>
+                <p >Already have account? <Link to='/form'>Login</Link></p>
             </div>
             
 
