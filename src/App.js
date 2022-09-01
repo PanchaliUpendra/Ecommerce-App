@@ -24,7 +24,7 @@ function App(){
     
     
     return(
-        <HashRouter basename="/Ecommerce">
+        <HashRouter basename="/Ecommerce-App">
         <Navbar/>
         <Routes>
             <Route path='/' element={<Page1/>}/>
