@@ -10,7 +10,7 @@ function Navbar(){
             <div className='navbar'>
                 <div className='logo-btn'>
                     <img alt="shop" src={shop} className="img-btn"/>
-                <p className='logo'><Link to='/' className='Link'>LALAM</Link></p>
+                <p className='logo'><Link to='/Ecommerce-App' className='Link'>LALAM</Link></p>
                 </div>
                 <ul className='ul-btn'>
                     <li  ><Link to='/products' className='Link' >Product</Link></li>
